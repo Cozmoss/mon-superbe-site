@@ -65,8 +65,9 @@
             Cas pratiques
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../../6-cas-pratique/1-Armes/exo1.php">exo1</a>
-                <a class="dropdown-item" href="../../6-cas-pratique/1-Armes/exo2.php">exo2</a>
+                <?php for ($i = 1; $i <= 6; $i++): ?>
+                    <a class="dropdown-item" href="../../6-cas-pratique/exo<?= $i ?>/index.php">exo<?= $i ?></a>
+                <?php endfor; ?>
             </div>
         </li>
         <li class="nav-item dropdown">
