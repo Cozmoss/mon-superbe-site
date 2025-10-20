@@ -1,25 +1,13 @@
 <?php ob_start(); //NE PAS MODIFIER
-$titre = "Exo 2 : Strings";
+$titre = "Exo 2 : Forms";
 
 //Mettre le nom du titre de la page que vous voulez
 ?>
 
-<?php
-$str1 = "Etoiles de mer";
-$str2 = "chat et la souris";
 
-$str1_min = strtolower($str1);
-$str2_min = strtolower($str2);
-
-if ($str1_min < $str2_min) {
-    echo $str1 . "<br>";
-    echo $str2 . "<br>";
-} else {
-    echo $str2 . "<br>";
-    echo $str1 . "<br>";
-}
-?>
-
+<div>
+	<p>La question de l'exercice 2 demande comment traiter les données dans le même fichier que celui qui contient le formulaire. Chose qui est déjà demandé à l'exercice 1. Si on veut traiter cela avec un autre fichier, il suffit de créer un fichier php spécifique, mettre le php dedans. Et dans le formulaire on dit que l'action est le nom du fichier php. Exemple : <pre><code>&lt;form action="traitement.php" method="post"&gt;</code></pre></p>
+</div>
 
 
 

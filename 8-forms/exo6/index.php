@@ -1,29 +1,17 @@
 <?php ob_start(); //NE PAS MODIFIER
-$titre = "Exo 6 : Strings";
+$titre = "Exo 6 : Forms";
 
 //Mettre le nom du titre de la page que vous voulez
 ?>
 
-<?php
-$mail = "d.pascal2012@mail.com";
+<form action="" method="post">
+	<button class="btn btn-primary" name="submit" value="vendre">Vendre</button>
+	<button class="btn btn-primary" name="submit" value="acheter">Acheter</button>
+	<button class="btn btn-primary" name="submit" value="louer">Louer</button>
 
-$index_arobase = strpos($mail, "@");
-$utilisateur = substr($mail, 0, $index_arobase);
-echo "Nom de l'utilisateur : $utilisateur<br>";
+</form>
 
-echo "Index du caractère @ : $index_arobase<br>";
-
-$domaine = substr($mail, $index_arobase + 1);
-echo "Nom du domaine : $domaine<br>";
-
-if ($domaine == "gmail.com") {
-    echo "C'est bien une adresse Gmail.";
-} else {
-    echo "Ce n'est pas une adresse Gmail.";
-}
-?>
-
-
+<?php require_once 'process.php'; ?>
 
 <?php
 /************************
