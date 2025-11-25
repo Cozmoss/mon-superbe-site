@@ -62,16 +62,6 @@
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Cas pratiques
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <?php for ($i = 1; $i <= 6; $i++): ?>
-                    <a class="dropdown-item" href="../../6-cas-pratique/exo<?= $i ?>/index.php">exo<?= $i ?></a>
-                <?php endfor; ?>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Strings
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -87,6 +77,16 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <?php for ($i = 1; $i <= 6; $i++): ?>
                     <a class="dropdown-item" href="../../8-forms/exo<?= $i ?>/index.php">exo<?= $i ?></a>
+                <?php endfor; ?>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cas pratiques
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <?php for ($i = 1; $i <= 3; $i++): ?>
+                    <a class="dropdown-item" href="../../6-cas-pratique/exo<?= $i ?>/index.php">exo<?= $i ?></a>
                 <?php endfor; ?>
             </div>
         </li>
