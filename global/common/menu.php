@@ -85,7 +85,7 @@
             Cas pratiques
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <?php for ($i = 1; $i <= 7; $i++): ?>
+                <?php for ($i = 1; $i <= 14; $i++): ?>
                     <a class="dropdown-item" href="../../6-cas-pratique/exo<?= $i ?>/index.php">exo<?= $i ?></a>
                 <?php endfor; ?>
             </div>
