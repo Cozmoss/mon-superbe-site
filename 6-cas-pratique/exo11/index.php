@@ -1,5 +1,5 @@
 <?php ob_start(); //NE PAS MODIFIER
-$titre = "Exo 10 : Gestion du niveaux des armes en POO";
+$titre = "Exo 11 : Gestion du niveaux des armes en POO avec selecteur de niveaux";
 
 //Mettre le nom du titre de la page que vous voulez
 ?>
