@@ -24,10 +24,6 @@ $titre = "Exo 11 : Gestion du niveaux des armes en POO avec selecteur de niveaux
 </table>
 
 
-
-
-
-
 <?php
 /************************
  * NE PAS MODIFIER
